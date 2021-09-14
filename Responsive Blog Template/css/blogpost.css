@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.no {
+    display: flex;
+    float: right;
+    margin: 30px;
+}

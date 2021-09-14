@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contect-contac {
+    height: 55px;
+    /* background-color: rgb(160, 160, 238); */
+    display: flex;
+    margin-top: 30px;
+    padding: 9px;
+    position: relative;
+}
+
+
+/* .contect-contac ::after {
+    background-image: url('../img/download.jpg');
+    opacity: 0.8;
+} */
+
+.contect-from {
+    display: flex;
+    /* display: block; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.from-box {
+    margin: 2px;
+    padding: 3px;
+    /* border: 1px solid black; */
+    /* font-family: var(--font2); */
+}
+
+.from-box input {
+    width: 50vw;
+    height: 2vw;
+    font-family: var(--font2);
+}
+
+.from-box textarea {
+    width: 50vw;
+    height: 10vw;
+    font-family: var(--font2);
+}
